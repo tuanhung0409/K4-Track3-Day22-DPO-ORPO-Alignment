@@ -1,6 +1,6 @@
 # Reflection — Lab 22 (DPO/ORPO Alignment)
 
-**Tên:** _(Họ Tên)_
+**Tên:** Nguyễn Tuấn Hùng — MSSV: 2A202601194
 **Cohort:** A20-K4
 **Tier đã chạy:** T4 (Free Colab)
 **Date:** 2026-08-25

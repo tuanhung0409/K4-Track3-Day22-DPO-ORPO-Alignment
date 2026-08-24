@@ -13,16 +13,20 @@ __pycache__/
 # for grading). The Jupytext `.py` files are the source-of-truth template;
 # `.ipynb` is the student's executed deliverable.
 
-# Lab artifacts (regenerated on every run; do not commit)
-data/pref/
-data/eval_prompts.json
-adapters/sft-mini/
-adapters/dpo/
-adapters/orpo/
-gguf/
+# Lab weight files (large — do not commit; use HF Hub for Option B)
+*.safetensors
 *.gguf
+*.bin
+gguf/
+adapters/merged-fp16/
 runs/
 wandb/
+
+# Allow adapter configs, tokenizer, metrics, screenshots, eval data
+# (these are required for submission and are small)
+# adapters/sft-mini/  <-- now committed (adapter_config.json etc.)
+# adapters/dpo/       <-- now committed (adapter_config.json, dpo_metrics.json etc.)
+# data/pref/          <-- now committed (train.parquet, eval.parquet)
 
 # HuggingFace cache (Colab + local — model weights are huge)
 .cache/
